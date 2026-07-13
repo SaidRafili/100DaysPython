@@ -7,4 +7,6 @@ costAfterTip = tipPercentage + cost
 costPerPerson = costAfterTip / people
 print("You should pay " + str(costPerPerson))
 
-#simpler approach
+#polished approach
+final = (((cost / 100) * tip)+cost)/people
+print("You should pay " + str(final))
