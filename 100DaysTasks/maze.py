@@ -21,46 +21,58 @@ maze = np.array([
 def mazeAlgo():
     startX = 1
     startY = 11
+    visited = 2
 
     def moveUp():
         nonlocal startY
-        startY -= 1
+        startY -= 2
 
     def moveDown():
         nonlocal startY
-        startY += 1
+        startY += 2
 
     def moveRight():
         nonlocal startX
-        startX += 1
+        startX += 2
 
     def moveLeft():
         nonlocal startX
-        startX -= 1
+        startX -= 2
 
     def checkAround():
-        nonlocal startX, startY
+        nonlocal startX, startY, visited
 
         for i in range(100):
-            print(f"Step {i}: position = ({startX}, {startY})")
             print("Current position:", startY, startX)
 
-            if maze[startY, startX] == 3:
-                print("You won")
-                return
-
-            elif maze[startY - 1, startX] in [0, 3]:
+            if  maze[startY - 1, startX] in [0,3] and maze[startY - 2, startX] != 2:
                 moveUp()
-
-            elif maze[startY, startX + 1] in [0, 3]:
+                if maze[startY, startX] == 3:
+                    print("You won")
+                    break
+                else:
+                    maze[startY, startX] = visited
+            elif maze[startY, startX + 1] in [0,3] and maze[startY, startX + 2] != 2:
                 moveRight()
-
-            elif maze[startY + 1, startX] in [0, 3]:
+                if maze[startY, startX] == 3:
+                    print("You won")
+                    break
+                else:
+                    maze[startY, startX] = visited
+            elif maze[startY + 1, startX] in [0,3] and maze[startY + 2, startX] != 2:
                 moveDown()
-
-            elif maze[startY, startX - 1] in [0, 3]:
+                if maze[startY, startX] == 3:
+                    print("You won")
+                    break
+                else:
+                    maze[startY, startX] = visited
+            elif maze[startY, startX - 1] in [0,3] and maze[startY, startX - 2] != 2:
                 moveLeft()
-
+                if maze[startY, startX] == 3:
+                    print("You won")
+                    break
+                else:
+                    maze[startY, startX] = visited
             else:
                 print("No available movement")
                 return
