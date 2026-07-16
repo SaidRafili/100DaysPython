@@ -1,3 +1,7 @@
+from art import *
+art = text2art("Ceaser")
+print(art)
+
 alphabet = [' ',"a","b","c",'d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 print("Welcome to Ceaser Cypher tool!")
@@ -12,6 +16,10 @@ for i in textSeperated:
             indeximsi == indeximsi
         else:
             indeximsi += key
+            if indeximsi > 26:
+                indeximsi -= 26
+            else:
+                pass
             cypher = ""
             cypher += alphabet[indeximsi]
             print(cypher)
