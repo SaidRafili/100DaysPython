@@ -17,7 +17,6 @@ maze = np.array([
     [1,1,1,1,1,1,1,1,1,1,1,1,1]
 ])
 
-
 def mazeAlgo():
     startX = 1
     startY = 11
