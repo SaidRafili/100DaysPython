@@ -1,5 +1,7 @@
 import random
 from art import *
+art = text2art("Rock Paper Scissors")
+print(art)
 
 rock = '''
     _______

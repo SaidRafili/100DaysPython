@@ -279,7 +279,6 @@ stages = [r'''
 ''']
 
 def clear_terminal():
-    # 'nt' is for Windows, 'posix' is for macOS and Linux
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def hangman ():
