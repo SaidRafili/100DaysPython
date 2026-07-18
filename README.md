@@ -8,4 +8,5 @@
     <li><a href="/100DaysTasks/hangman.py">Hangman Game</a> - Jul 17 14:52</li>
     <li><a href="/100DaysTasks/pass.py">Password Generator</a> - Jul 17 15:43</li>
     <li><a href="/100DaysTasks/rockpaper.py">Rock Paper Scissors</a> - Jul 18 20:45</li>
+    <li><a href="/100DaysTasks/bid.py">Auction</a> - Jul 18 22:45</li>
 </ol>
