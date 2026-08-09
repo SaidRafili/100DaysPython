@@ -23,4 +23,6 @@ for i in textSeperated:
             cypher = ""
             cypher += alphabet[indeximsi]
             print(cypher)
-    
+
+
+     
