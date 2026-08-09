@@ -10,5 +10,6 @@
     <li><a href="/100DaysTasks/rockpaper.py">Rock Paper Scissors</a> - Jul 18 20:45</li>
     <li><a href="/100DaysTasks/bid.py">Auction</a> - Jul 18 22:45</li>
     <li><a href="/100DaysTasks/guess.py">Guess The Number</a> - Jul 19 01:45</li>
-    <li><a href="/100DaysTasks/coffeemachine.py">Coffee Machine</a> - Jul 20 20:16</li>
+    <li><a href="/100DaysTasks/Intermediate/coffeemachine.py">Coffee Machine</a> - Jul 20 20:16</li>
+    <li><a href="/100DaysTasks/Intermediate/Quiz Project">Quiz Project</a> - Aug 9 15:09</li>
 </ol>
