@@ -14,4 +14,5 @@
     <li><a href="/100DaysTasks/Intermediate/Quiz Project">Quiz Project</a> - Aug 9 15:09</li>
     <li><a href="/100DaysTasks/Intermediate/paint.py">Hirst Painting</a> - Aug 9 22:25</li>
     <li><a href="/100DaysTasks/Intermediate/race.py">Turtle Race</a> - Aug 10 12:31</li>
+    <li><a href="/100DaysTasks/Intermediate/snake/main.py">Snake Game part 1</a> - Aug 11 09:47</li>
 </ol>
